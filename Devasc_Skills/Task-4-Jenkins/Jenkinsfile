@@ -10,8 +10,8 @@ pipeline {
         stage('Docker build, Docker run') {
             steps {
                 script {
-                    docker.build('apache_custom', '-f Devasc_Skills/Task-3-Docker/Task3.dockerfile .')
-                    docker.image('apache_custom').run('-d -p 8088:8088 --name apache_container')
+                    def customImage = docker.build('apache_custom', '-f Devasc_Skills/Task-3-Docker/Task3.dockerfile .')
+                    customImage.run('--detach -p 8088:8088 --name apache_container')
                 }
             }
         }
