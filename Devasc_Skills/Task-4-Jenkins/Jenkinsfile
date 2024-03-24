@@ -19,7 +19,7 @@ pipeline {
             steps {
                 script {
                     sleep 10
-                    sh 'curl http://localhost:8088'
+                    bat 'curl http://localhost:8088'
                 }
             }
         }
