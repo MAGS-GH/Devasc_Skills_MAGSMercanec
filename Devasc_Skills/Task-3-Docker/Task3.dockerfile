@@ -8,7 +8,7 @@ RUN sed -i '/rewrite_module/s/^#//g' /usr/local/apache2/conf/httpd.conf
 RUN sed -i 's/Listen 80/Listen 8088/' /usr/local/apache2/conf/httpd.conf
 
 # Copy the custom index.html to Apache root folder
-COPY ./files/index.html /usr/local/apache2/htdocs/index.html
+COPY Devasc_Skills\Task-3-Docker\files\index.html /usr/local/apache2/htdocs/index.html
 
 # Expose port 8088
 EXPOSE 8088
