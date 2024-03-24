@@ -30,25 +30,41 @@ All collectet here in GitHub and more details in the [Task 1](https://github.com
 
 > Task verification => proof of the quality of the result
 
-## [Task 3 - Docker](/Devasc_Skills/Task%203%20-%20Docker)
+## [Task 3 - Docker](/Devasc_Skills/Task-3-Docker)
 
 > Task preparation => what preparation is necessary to perform the task? (short)
 
+I wanted to do this on my local windows PC, therefore i needed to install Docker Desktop. I had to read a little bit up about YAML again, because i did the Docker assigment before the Ansible
+
 > Task implementation => what is the way you have implemented the task?
+
+I made a Docker file and tried to run it on my local machine.
 
 > Task troubleshooting => what were the problems encountered?
 
+I have never worked with Bash on windows, and that ended being a bit of a hurdle.
+
 > Task verification => proof of the quality of the result
+
+There is a video and screenshots in this [folder](/Devasc_Skills/Task-3-Docker/Video) 
 
 ## [Task 4 - Jenkins](/Devasc_Skills/Task-4-Jenkins)
 
 > Task preparation => what preparation is necessary to perform the task? (short)
 
+Install Jenkins on my Local machine (Windows) and connect it to Docker
+
 > Task implementation => what is the way you have implemented the task?
+
+I ran jenkins on my local machine with docker and used the result from Task 3
 
 > Task troubleshooting => what were the problems encountered?
 
+Had some trouble with Bash and generally naming of folders. There were some issues giving Jenkins access to Docker but i worked it out with help from google!
+
 > Task verification => proof of the quality of the result
+
+There is a video and screenshots in this [folder](/Devasc_Skills/Task-4-Jenkins/Video) 
 
 ## [Task 5 - Rest API & Restconf](/Devasc_Skills/Task%205%20-%20Rest%20API%20&%20Restconf)
 
