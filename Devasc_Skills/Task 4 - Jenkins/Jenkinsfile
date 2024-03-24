@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Prepare') {
+            steps {
+                git 'https://github.com/MAGS-GH/Devasc_Skills_MAGSMercanec/tree/main/Devasc_Skills/Task%203%20-%20Docker'
+            }
+        }
+        stage('Docker build, Docker run') {
+            steps {
+                sh 'docker build -t apache_custom -f Task3.dockerfile .'
+                sh 'docker run -d -p 8088:8088 --name apache_container apache_custom'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'curl http://localhost:8088'
+            }
+        }
+    }
+}
