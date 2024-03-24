@@ -16,4 +16,7 @@ Create a CI/CD pipeline
 
    c. Stage 3: Test
 
+   - [x] Done and contained in the [Jenkinsfile](Jenkinsfile)
+
 2. Take screenshots indicating the success of your actions and save script files
+   - [x] Script file here [Jenkinsfile](Jenkinsfile) and video of it working here ![Video](Video/Jenkins.mp4)

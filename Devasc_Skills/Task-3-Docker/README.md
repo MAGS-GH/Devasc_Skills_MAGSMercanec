@@ -31,4 +31,4 @@ This task tests your skill to interpret an Ansible playbook and to convert the p
     - [x] [index.html](files/index.html)
 
 3.  Take screenshots indicating the success of your actions and save script files and related docs
-    - [x] [videoOfWorkingTask3](Video/2024-03-24%2020-18-04.mp4)
+    - [x] ![videoOfWorkingTask3](Video/Docker.mp4)
