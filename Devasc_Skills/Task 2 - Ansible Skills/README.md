@@ -1,3 +1,13 @@
+# Task 2 - Ansible Skills Test
+
+#### Task name: Ansible
+
+### Task Description
+
+Manage Ansible scripts
+
+## Task Execution
+
 1. Connect to your DEVASC virtual machine and start your virtual router
 2. Create an Ansible playbook for your virtual router:
    a. Collect information about IOS version

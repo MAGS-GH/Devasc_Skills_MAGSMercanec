@@ -1,3 +1,13 @@
+# Task 1 - GitHub Skills Test
+
+#### Task name: GitHub
+
+### Task Description
+
+Manage GitHub scripts and documents
+
+## Task Execution
+
 1. Preparation
    - [x] Create a folder “Devasc_Skills” in your DEVASC virtual machine and start a git repository
 2. Scripts
@@ -8,5 +18,6 @@
    - [x] After every step make sure that the local files are present on GitHub with a tag indicating the task name
 5. Screenshoots
    - [x] Take screenshots indicating the success of your actions
+         ![PictureOfGitHub](GitHub%20Repo%20created.PNG)
 6. README
    - [x] At the end finalize the README file indicating the list of tasks and your remarks
