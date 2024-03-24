@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Prepare') {
             steps {
-                git 'https://github.com/MAGS-GH/Devasc_Skills_MAGSMercanec/tree/main/Devasc_Skills/Task%203%20-%20Docker'
+                git 'https://github.com/MAGS-GH/Devasc_Skills_MAGSMercanec/tree/main/Devasc_Skills/Task-3-Docker'
             }
         }
         stage('Docker build, Docker run') {
