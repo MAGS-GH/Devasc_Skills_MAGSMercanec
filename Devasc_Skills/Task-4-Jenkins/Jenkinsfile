@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Docker build, Docker run') {
             steps {
-                sh 'docker build -t apache_custom -f Devasc_Skills\Task-3-Docker\Task3.dockerfile .'
+                sh 'docker build -t apache_custom -f Task3.dockerfile .'
                 sh 'docker run -d -p 8088:8088 --name apache_container apache_custom'
             }
         }
