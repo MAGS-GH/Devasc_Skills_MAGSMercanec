@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAGS - DevNet</title>
+  </head>
+  <body>
+    <h1>DevNet Associate Skills Test</h1>
+    <p>Created by: MAGS @ Mercantec</p>
+    <p>Date: <span id="currentDateTime"></span></p>
+
+    <script>
+      let currentDateTime = new Date();
+
+      let formattedDateTime =
+        currentDateTime.toLocaleDateString() +
+        " " +
+        currentDateTime.toLocaleTimeString();
+
+      document.getElementById("currentDateTime").textContent =
+        formattedDateTime;
+    </script>
+  </body>
+</html>
