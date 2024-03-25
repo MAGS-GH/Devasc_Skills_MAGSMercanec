@@ -5,7 +5,7 @@ DevNet - Final Exam - [Exercise from Cisco](https://docs.google.com/document/d/1
 |        Topic        	| Number of Points 	| Completet? 	|
 |:-------------------:	|:----------------:	|:----------:	|
 |        [GitHub](/Devasc_Skills/Task-1-GitHub-Skills-Test)       	|         2        	|     [x]    	|
-|       [Ansible](/Devasc_Skills/Task2-Ansible-Skills)       	|         3        	|     []     	|
+|       [Ansible](/Devasc_Skills/Task-2-Ansible-Skills)       	|         3        	|     []     	|
 |        [Docker](/Devasc_Skills/Task-3-Docker)       	|         3        	|     [x]    	|
 |       [Jenkins](/Devasc_Skills/Task-4-Jenkins)       	|         1        	|     [x]    	|
 | [Rest API & RestCone](/Devasc_Skills/Task-5-Rest-API&Restconf) 	|         3        	|     []     	|
@@ -34,7 +34,7 @@ Not any problems during the process
 
 All collectet here in GitHub and more details in the [Task 1](https://github.com/MAGS-GH/Devasc_Skills_MAGSMercanec/tree/main/Devasc_Skills/Task%201%20-%20GitHub%20Skills%20Test) folder
 
-## [Task 2 - Ansible Skills Test](/Devasc_Skills/Task2-Ansible-Skills)
+## [Task 2 - Ansible Skills Test](/Devasc_Skills/Task-2-Ansible-Skills)
 
 > Task preparation => what preparation is necessary to perform the task? (short)
 
