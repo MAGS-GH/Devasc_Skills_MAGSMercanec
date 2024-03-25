@@ -16,8 +16,7 @@ Use your virtual DEVASC virtual machine as well as your virtual CSR1Kv router
 
 3. Transform the curl commands into Python code. In case of errors, use a quick fix to activate “logging monitor” using the cisco ios cli of your virtual router
 
-4. Take screenshots indicating the success of your actions
-   Save the Python code on Github
+4. Take screenshots indicating the success of your actions - Save the Python code on Github
 
 ### Task source files
 
