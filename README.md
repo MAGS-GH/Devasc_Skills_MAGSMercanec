@@ -5,16 +5,16 @@ DevNet - Final Exam - [Exercise from Cisco](https://docs.google.com/document/d/1
 |                              Topic                               | Number of Points |      Completet?      |
 | :--------------------------------------------------------------: | :--------------: | :------------------: |
 |        [GitHub](/Devasc_Skills/Task-1-GitHub-Skills-Test)        |        2         |         [x]          |
-|         [Ansible](/Devasc_Skills/Task-2-Ansible-Skills)          |        3         |          []          |
+|         [Ansible](/Devasc_Skills/Task-2-Ansible-Skills)          |        3         |         [x]          |
 |              [Docker](/Devasc_Skills/Task-3-Docker)              |        3         |         [x]          |
 |             [Jenkins](/Devasc_Skills/Task-4-Jenkins)             |        1         |         [x]          |
 |  [Rest API & RestCone](/Devasc_Skills/Task-5-Rest-API&Restconf)  |        3         |          []          |
 |     [Webex Teams API](/Devasc_Skills/Task-6-Webex-Teams-API)     |        3         |          []          |
 |                [Bash](/Devasc_Skills/Task-7-Bash)                |        2         |         [x]          |
-|        [Unit Testing](/Devasc_Skills/Task-8-unit-testing)        |        0         |          []          |
-|               [pyATS](/Devasc_Skills/Task-9-pyATS)               |        0         |          []          |
+|        [Unit Testing](/Devasc_Skills/Task-8-unit-testing)        |        0         |         [?]          |
+|               [pyATS](/Devasc_Skills/Task-9-pyATS)               |        0         |         [?]          |
 | [DNAC Data](/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA) |        3         |         [x]          |
-|                                                                  |     Sum - 20     | Sum - 11 (14 needed) |
+|                                                                  |     Sum - 20     | Sum - 14 (14 needed) |
 
 ## [Task 1 - GitHub Skills Test](/Devasc_Skills/Task-1-GitHub-Skills-Test)
 
@@ -38,11 +38,20 @@ All collectet here in GitHub and more details in the [Task 1](https://github.com
 
 > Task preparation => what preparation is necessary to perform the task? (short)
 
+I needed to read up a bit on ansible and how the playbooks work - The examples on the URLS were not that easy to follow
+
 > Task implementation => what is the way you have implemented the task?
+
+I created a .ini file for my information (host, username, pwd and OS) - Then i created the Ansible file based on the example
+I tried to run it and got some errors after debugging i got it to return ok=5!
 
 > Task troubleshooting => what were the problems encountered?
 
+I had some problems with my VM, not being able to see my router bc of some network settings!
+
 > Task verification => proof of the quality of the result
+
+There is a video and screenshots in this [folder](/Devasc_Skills/Task-2-Ansible-Skills/Video)
 
 ## [Task 3 - Docker](/Devasc_Skills/Task-3-Docker)
 
