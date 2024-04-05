@@ -1,7 +1,7 @@
 import requests
 requests.packages.urllib3.disable_warnings()
 
-IP_HOST = "192.168.56.107"
+IP_HOST = "192.168.56.101"
 RESTCONF_USERNAME="cisco"
 RESTCONF_PASSWORD="cisco123!"
 DATA_FORMAT="application/yang-data+json"
