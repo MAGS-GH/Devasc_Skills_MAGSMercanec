@@ -13,8 +13,8 @@ DevNet - Final Exam - [Exercise from Cisco](https://docs.google.com/document/d/1
 |                [Bash](/Devasc_Skills/Task-7-Bash)                |        2         |         []          |
 |        [Unit Testing](/Devasc_Skills/Task-8-unit-testing)        |        0         |         []          |
 |               [pyATS](/Devasc_Skills/Task-9-pyATS)               |        0         |         []          |
-| [DNAC Data](/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA) |        3         |         []          |
-|                                                                  |     Sum - 20     | Sum - 6 (14 needed) |
+| [DNAC Data](/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA) |        3         |         [x]         |
+|                                                                  |     Sum - 20     | Sum - 9 (14 needed) |
 
 ## [Task 1 - GitHub Skills Test](/Devasc_Skills/Task-1-GitHub-Skills-Test)
 
