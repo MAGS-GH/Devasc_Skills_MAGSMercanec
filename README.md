@@ -121,10 +121,17 @@ There is a video and screenshots in this [folder](/Devasc_Skills/Task-4-Jenkins/
 ## [Task 10 - FILTERING DNAC RESPONSE DATA](/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA)
 
 > Task preparation => what preparation is necessary to perform the task? (short)
-> I had experience with Python from the exercised so did not need any preparation other than starting the VM
+
+I had experience with Python from the exercised so did not need any preparation other than starting the VM
+
 > Task implementation => what is the way you have implemented the task?
-> I looked at all the missing pieces and looked what was needed later in the code
+
+I looked at all the missing pieces and looked what was needed later in the code
+
 > Task troubleshooting => what were the problems encountered?
-> I ran the code without the result multiple times, but debugged it until it gave the right answer
+
+I ran the code without the result multiple times, but debugged it until it gave the right answer
+
 > Task verification => proof of the quality of the result
-> Can be found in [Task-10 Results](https://github.com/MAGS-GH/Devasc_Skills_MAGSMercantec/tree/main/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA/Video)
+
+Can be found in [Task-10 Results](https://github.com/MAGS-GH/Devasc_Skills_MAGSMercantec/tree/main/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA/Video)
