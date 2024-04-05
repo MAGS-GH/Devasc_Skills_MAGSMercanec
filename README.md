@@ -8,13 +8,13 @@ DevNet - Final Exam - [Exercise from Cisco](https://docs.google.com/document/d/1
 |         [Ansible](/Devasc_Skills/Task-2-Ansible-Skills)          |        3         |         [x]          |
 |              [Docker](/Devasc_Skills/Task-3-Docker)              |        3         |         [x]          |
 |             [Jenkins](/Devasc_Skills/Task-4-Jenkins)             |        1         |         [x]          |
-|  [Rest API & RestCone](/Devasc_Skills/Task-5-Rest-API&Restconf)  |        3         |          []          |
+|  [Rest API & RestCone](/Devasc_Skills/Task-5-Rest-API&Restconf)  |        3         |         [x]          |
 |     [Webex Teams API](/Devasc_Skills/Task-6-Webex-Teams-API)     |        3         |          []          |
 |                [Bash](/Devasc_Skills/Task-7-Bash)                |        2         |         [x]          |
 |        [Unit Testing](/Devasc_Skills/Task-8-unit-testing)        |        0         |         [?]          |
 |               [pyATS](/Devasc_Skills/Task-9-pyATS)               |        0         |         [?]          |
 | [DNAC Data](/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA) |        3         |         [x]          |
-|                                                                  |     Sum - 20     | Sum - 14 (14 needed) |
+|                                                                  |     Sum - 20     | Sum - 17 (14 needed) |
 
 ## [Task 1 - GitHub Skills Test](/Devasc_Skills/Task-1-GitHub-Skills-Test)
 
@@ -93,11 +93,19 @@ There is a video and screenshots in this [folder](/Devasc_Skills/Task-4-Jenkins/
 
 > Task preparation => what preparation is necessary to perform the task? (short)
 
+I had to read the provided CURL information and understand them
+
 > Task implementation => what is the way you have implemented the task?
+
+I made one for each CURL-command in Python, did testing as they got done
 
 > Task troubleshooting => what were the problems encountered?
 
+I had some trouble with POST and PUT, but found the following - import urllib3 -> urllib3.disable_warnings()
+
 > Task verification => proof of the quality of the result
+
+There is a video and screenshots in [Task-5-Result](./Devasc_Skills/Task-5-Rest-API&Restconf/Video/)
 
 ## [Task 6 - Webex Teams API](/Devasc_Skills/Task-6-Webex-Teams-API)
 
@@ -125,7 +133,7 @@ I had some errors due to the IP-address being wrong and not pointing at my VRout
 
 > Task verification => proof of the quality of the result
 
-Can be seen in [Task-7-Result](./Devasc_Skills/Task-7-Bash/Video/)
+There is a video and screenshots in [Task-7-Result](./Devasc_Skills/Task-7-Bash/Video/)
 
 ## [Task 8 - unit testing](/Devasc_Skills/Task-8-unit-testing)
 
@@ -151,4 +159,4 @@ I ran the code without the result multiple times, but debugged it until it gave 
 
 > Task verification => proof of the quality of the result
 
-Can be found in [Task-10 Results](https://github.com/MAGS-GH/Devasc_Skills_MAGSMercantec/tree/main/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA/Video)
+There is a video and screenshots in [Task-10 Results](/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA/Video/)
