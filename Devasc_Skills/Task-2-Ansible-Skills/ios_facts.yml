@@ -1,26 +1,28 @@
 ---
-- name: Collect IOS version and L3 interfaces information, and configure logging buffer
-  hosts: all
+- name: Collect IOS Facts and Configure Logging Buffer
+  hosts: virtual_routers
   gather_facts: no
-
+  connection: network_cli
   tasks:
     - name: Collect IOS version information
-      ios_facts:
-      register: ios_info
+      ios_command:
+        commands: show version
+      register: ios_version
 
     - name: Display IOS version
       debug:
-        msg: "IOS Version: {{ ios_info.ansible_facts.ansible_net_version }}"
+        var: ios_version.stdout
 
-    - name: Collect L3 interfaces information
-      ios_interface_facts:
-      register: interface_info
+    - name: Gather information about L3 interfaces
+      ios_command:
+        commands: show interfaces
+      register: l3_interfaces
 
     - name: Display L3 interfaces information
       debug:
-        msg: "L3 Interfaces: {{ interface_info.ansible_facts.interfaces }}"
+        var: l3_interfaces.stdout
 
-    - name: Configure logging buffer
+    - name: Configure logging buffer size
       ios_config:
         lines:
           - logging buffered 5000
