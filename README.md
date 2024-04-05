@@ -2,19 +2,19 @@
 
 DevNet - Final Exam - [Exercise from Cisco](https://docs.google.com/document/d/1usUhtS76dZQSbQqyUE00BgbXKQL4wa1HsYsGF1rKudY/edit)
 
-|        Topic        	| Number of Points 	| Completet? 	|
-|:-------------------:	|:----------------:	|:----------:	|
-|        [GitHub](/Devasc_Skills/Task-1-GitHub-Skills-Test)       	|         2        	|     [x]    	|
-|       [Ansible](/Devasc_Skills/Task-2-Ansible-Skills)       	|         3        	|     []     	|
-|        [Docker](/Devasc_Skills/Task-3-Docker)       	|         3        	|     [x]    	|
-|       [Jenkins](/Devasc_Skills/Task-4-Jenkins)       	|         1        	|     [x]    	|
-| [Rest API & RestCone](/Devasc_Skills/Task-5-Rest-API&Restconf) 	|         3        	|     []     	|
-|   [Webex Teams API](/Devasc_Skills/Task-6-Webex-Teams-API)   	|         3        	|     []     	|
-|         [Bash](/Devasc_Skills/Task-7-Bash)        	|         2        	|     []     	|
-|     [Unit Testing](/Devasc_Skills/Task-8-unit-testing)    	|         0        	|     []     	|
-|        [pyATS](/Devasc_Skills/Task-9-pyATS)        	|         0        	|     []     	|
-|      [DNAC Data](/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA)   	|         3        	|     []     	|
-|                     	| Sum - 20         	| Sum - 6   (14 needed) 	|
+|                              Topic                               | Number of Points |     Completet?      |
+| :--------------------------------------------------------------: | :--------------: | :-----------------: |
+|        [GitHub](/Devasc_Skills/Task-1-GitHub-Skills-Test)        |        2         |         [x]         |
+|         [Ansible](/Devasc_Skills/Task-2-Ansible-Skills)          |        3         |         []          |
+|              [Docker](/Devasc_Skills/Task-3-Docker)              |        3         |         [x]         |
+|             [Jenkins](/Devasc_Skills/Task-4-Jenkins)             |        1         |         [x]         |
+|  [Rest API & RestCone](/Devasc_Skills/Task-5-Rest-API&Restconf)  |        3         |         []          |
+|     [Webex Teams API](/Devasc_Skills/Task-6-Webex-Teams-API)     |        3         |         []          |
+|                [Bash](/Devasc_Skills/Task-7-Bash)                |        2         |         []          |
+|        [Unit Testing](/Devasc_Skills/Task-8-unit-testing)        |        0         |         []          |
+|               [pyATS](/Devasc_Skills/Task-9-pyATS)               |        0         |         []          |
+| [DNAC Data](/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA) |        3         |         [x]         |
+|                                                                  |     Sum - 20     | Sum - 9 (14 needed) |
 
 ## [Task 1 - GitHub Skills Test](/Devasc_Skills/Task-1-GitHub-Skills-Test)
 
@@ -60,7 +60,7 @@ I have never worked with Bash on windows, and that ended being a bit of a hurdle
 
 > Task verification => proof of the quality of the result
 
-There is a video and screenshots in this [folder](/Devasc_Skills/Task-3-Docker/Video) 
+There is a video and screenshots in this [folder](/Devasc_Skills/Task-3-Docker/Video)
 
 ## [Task 4 - Jenkins](/Devasc_Skills/Task-4-Jenkins)
 
@@ -78,7 +78,7 @@ Had some trouble with Bash and generally naming of folders. There were some issu
 
 > Task verification => proof of the quality of the result
 
-There is a video and screenshots in this [folder](/Devasc_Skills/Task-4-Jenkins/Video) 
+There is a video and screenshots in this [folder](/Devasc_Skills/Task-4-Jenkins/Video)
 
 ## [Task 5 - Rest API & Restconf](/Devasc_Skills/Task-5-Rest-API&Restconf)
 
@@ -122,8 +122,16 @@ There is a video and screenshots in this [folder](/Devasc_Skills/Task-4-Jenkins/
 
 > Task preparation => what preparation is necessary to perform the task? (short)
 
+I had experience with Python from the exercised so did not need any preparation other than starting the VM
+
 > Task implementation => what is the way you have implemented the task?
+
+I looked at all the missing pieces and looked what was needed later in the code
 
 > Task troubleshooting => what were the problems encountered?
 
+I ran the code without the result multiple times, but debugged it until it gave the right answer
+
 > Task verification => proof of the quality of the result
+
+Can be found in [Task-10 Results](https://github.com/MAGS-GH/Devasc_Skills_MAGSMercantec/tree/main/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA/Video)
