@@ -1,0 +1,26 @@
+---
+- name: Collect IOS version and L3 interfaces information, and configure logging buffer
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Collect IOS version information
+      ios_facts:
+      register: ios_info
+
+    - name: Display IOS version
+      debug:
+        msg: "IOS Version: {{ ios_info.ansible_facts.ansible_net_version }}"
+
+    - name: Collect L3 interfaces information
+      ios_interface_facts:
+      register: interface_info
+
+    - name: Display L3 interfaces information
+      debug:
+        msg: "L3 Interfaces: {{ interface_info.ansible_facts.interfaces }}"
+
+    - name: Configure logging buffer
+      ios_config:
+        lines:
+          - logging buffered 5000
