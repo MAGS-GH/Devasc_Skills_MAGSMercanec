@@ -32,7 +32,7 @@ Not any problems during the process
 
 > Task verification => proof of the quality of the result
 
-All collectet here in GitHub and more details in the [Task 1](https://github.com/MAGS-GH/Devasc_Skills_MAGSMercanec/tree/main/Devasc_Skills/Task%201%20-%20GitHub%20Skills%20Test) folder
+All collectet here in GitHub and more details in the [Task 1](/Devasc_Skills/Task-1-GitHub-Skills-Test/) folder
 
 ## [Task 2 - Ansible Skills Test](/Devasc_Skills/Task-2-Ansible-Skills)
 
