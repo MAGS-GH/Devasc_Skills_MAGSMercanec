@@ -127,4 +127,4 @@ There is a video and screenshots in this [folder](/Devasc_Skills/Task-4-Jenkins/
 > Task troubleshooting => what were the problems encountered?
 > I ran the code without the result multiple times, but debugged it until it gave the right answer
 > Task verification => proof of the quality of the result
-> Can be found in [Task-10 Results](Devasc_Skills\Task-10-FILTERING-DNAC-RESPONSE-DATA)
+> Can be found in [Task-10 Results](https://github.com/MAGS-GH/Devasc_Skills_MAGSMercantec/tree/main/Devasc_Skills/Task-10-FILTERING-DNAC-RESPONSE-DATA/Video)
